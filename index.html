@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <style>
+    body {
+      /* Taken from SVGBackgrounds.com */
+      background-color: #1a1a1a;
+      background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1124%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='rgba(33%2c 33%2c 33%2c 1)'%3e%3c/rect%3e%3cpath d='M0%2c507.661C95.272%2c490.756%2c185.34%2c466.616%2c271.186%2c421.973C364.646%2c373.37%2c473.289%2c331.904%2c519.759%2c237.366C566.502%2c142.271%2c546.353%2c27.171%2c515.001%2c-74.046C486.546%2c-165.909%2c411.688%2c-229.591%2c351.808%2c-304.843C288.916%2c-383.881%2c244.906%2c-481.41%2c154.697%2c-526.85C56.505%2c-576.311%2c-61.511%2c-599.589%2c-166.114%2c-565.731C-269.883%2c-532.143%2c-328.886%2c-429.301%2c-400.59%2c-347.113C-472.553%2c-264.628%2c-556.336%2c-189.601%2c-586.151%2c-84.276C-618.23%2c29.046%2c-616.531%2c152.24%2c-572.912%2c261.64C-528.163%2c373.875%2c-452.019%2c482.924%2c-340.996%2c530.6C-234.153%2c576.48%2c-114.489%2c527.976%2c0%2c507.661' fill='%231a1a1a'%3e%3c/path%3e%3cpath d='M1440 1210.06C1558.317 1192.31 1633.838 1082.2440000000001 1729.156 1009.9359999999999 1816.0149999999999 944.0450000000001 1919.837 898.377 1974.904 804.283 2032.9859999999999 705.0360000000001 2072.96 584.352 2043.23 473.269 2014.239 364.946 1900.391 309.072 1821.138 229.74200000000002 1748.301 156.83499999999998 1694.449 58.97500000000002 1596.705 26.312999999999988 1497.699-6.769999999999982 1387.593 12.986999999999966 1291.013 52.59800000000001 1200.067 89.89800000000002 1134.692 165.42700000000002 1072.3020000000001 241.38799999999998 1011.389 315.551 966.6800000000001 397.00800000000004 934.015 487.25 894.09 597.549 832.786 710.4970000000001 861.313 824.277 891.288 943.832 986.5830000000001 1037.583 1089.138 1105.952 1192.742 1175.02 1316.862 1228.533 1440 1210.06' fill='%23282828'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1124'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3c/defs%3e%3c/svg%3e");
+      background-attachment: fixed;
+      background-size: cover;
+    }
+
+    /* Style the custom checkmark container */
+    .custom-checkbox .custom-checkmark {
+      transition: background-color 0.2s, border-color 0.2s;
+    }
+
+    /* Style the checkmark when the checkbox is checked */
+    .custom-checkbox input:checked + .custom-checkmark {
+      background-color: black;
+      border-color: black;
+    }
+
+    /* Style the label as clickable with a pointer cursor */
+    .custom-checkbox.cursor-pointer {
+      cursor: pointer;
+    }
+
+    /* Style the checkmark icon when the checkbox is checked */
+    .custom-checkbox input:checked + .custom-checkmark svg {
+      opacity: 1;
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/logo.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>React Project Manager</title>
+</head>
+<body class="body">
+<div id="modal-root"></div>
+<div id="root"></div>
+<script type="module" src="/src/main.jsx"></script>
+</body>
+</html>
